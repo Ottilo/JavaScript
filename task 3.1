@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3.1</title>
+</head>
+
+<body>
+   
+    <script>
+       function printRow(indent, symbols, indentChar, symbolChar) {
+  let line = "";
+  for (let i = 0; i < indent; i++) {
+    line += indentChar;
+  }
+  for (let i = 0; i < symbols; i++) {
+    line += symbolChar;
+  }
+  console.log(line);
+}
+
+for (let i = 1; i <= 5; i++) {
+  printRow(5 - i, 2 * i - 1, " ", "*");
+}
+
+    </script>
+</body>
+
+</html>
