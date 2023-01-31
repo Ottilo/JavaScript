@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4.3</title>
+</head>
+
+<body>
+   
+    <script>
+ function getFibonacciNumbers(N) {
+  let fibsArr = [];
+  fibsArr[0] = 1;
+  fibsArr[1] = 1;
+  
+  for (let i = 2; i < N; i++) {
+    fibsArr[i] = fibsArr[i-1] + fibsArr[i-2];
+  }
+  
+  return fibsArr;
+}
+
+    </script>
+</body>
+
+</html>
